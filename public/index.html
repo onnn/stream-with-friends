@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+        <title>受講</title>
+        <style>
+            html, body {
+                color: white;
+                background-color: black;
+                width: 100%;
+                height: 100%;
+                border: 0;
+                margin: 0;
+                padding: 0;
+                background-image: url("rose.png");
+                background-repeat: no-repeat;
+                background-size: 80vh;
+                background-position: right bottom;
+                font-family: serif;
+            }
+            #main-content {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+            }
+            #welcome {
+                white-space: nowrap;
+                overflow: hidden;
+            }
+            #login-area {
+                display: flex;
+                justify-content: center;
+            }
+            #login-submit {
+                display: flex;
+                justify-content: center;
+                margin: 2em;
+            }
+            input[type=submit] {
+                background-color: white;
+                border: 0;
+                border-radius: 0px;
+            }
+            input[type=text] {
+                border: 0;
+                border-radius: 0;
+            }
+            input[type=password] {
+                border: 0;
+                border-radius: 0;
+            }
+            #rose {
+                background-image: url("/images/rose.png");
+                height:100%;
+                width: 100%;
+                background-size:cover;
+            }
+            
+
+
+        </style>
+    </head>
+    <body>
+        <div id="main-content">
+            <div class="welcome">
+                <h1>
+                    SI MONVMENTVM REQVIRIS, CIRCVMSPICE
+                </h1>
+            </div>
+            <div class="login-form" id="login-area">
+                <form action="/login" method="POST">
+                    <h2> <input type="text" name="username" style="margin: 1em;" required><input type="password" name="password" style="margin: 1em;" required></h2>
+                    <h3>
+                        <div id="login-submit">
+                            <input id="submission-button" type="submit" value="受講" style="width:20%">
+                        </div>
+                    </h3>
+                </form>
+            </div>
+        </div>
+
+    </body>
+</html>        
