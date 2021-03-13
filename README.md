@@ -7,4 +7,5 @@ You get a chat, row of webcams, and a media stream on one page. Uses WebRTC for 
 You provide a MongoDB (NoSQL) database with links to the media files stored on the server.
 
 Video Demonstration:
-https://www.youtube.com/watch?v=fTXHcI5IHhE
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/fTXHcI5IHhE/0.jpg)](https://www.youtube.com/watch?v=fTXHcI5IHhE "Stream With Friends Demonstation")
